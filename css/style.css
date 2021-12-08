@@ -21,13 +21,25 @@ ul.nav li.active a {
 #text {
     background-color: white;
     padding: 25px;
+    border-radius: 5px;
 }
 
 .col-8 {
     background-color: white;
     padding: 25px;
+    border-radius: 5px;
 }
 .col-sm-3 {
     background-color: white;
     padding: 50px;
+    border-radius: 5px;
 }
+
+.row {
+    justify-content: center;
+}
+
+#carouselExampleDark {
+    width: 800px;
+}
+
