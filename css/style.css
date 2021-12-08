@@ -1,0 +1,33 @@
+h1 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+ul.nav li.active a {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+#text {
+    background-color: white;
+    padding: 25px;
+}
+
+.col-8 {
+    background-color: white;
+    padding: 25px;
+}
+.col-sm-3 {
+    background-color: white;
+    padding: 50px;
+}
