@@ -1,36 +1,25 @@
-h1 {
+.header {
     padding: 50px 0;
     text-align: center;
 }
 
-ul.nav li a, ul.nav li a:visited {
-    color: black !important;
-    font-weight: bold !important;
-}
-
-ul.nav li a:hover, ul.nav li a:active {
-    color: black !important;
-    font-weight: bold !important;
-}
-
-ul.nav li.active a {
-    color: black !important;
-    font-weight: bold !important;
+.accordion-button {
+    background-color: white
 }
 
 #text {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 25px;
     border-radius: 5px;
 }
 
 .col-8 {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 25px;
     border-radius: 5px;
 }
 .col-sm-3 {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 50px;
     border-radius: 5px;
 }
