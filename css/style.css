@@ -7,8 +7,13 @@
     background-color: white
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    color: black;
+}
+
 #text {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: white;
     padding: 25px;
     border-radius: 5px;
 }
