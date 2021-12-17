@@ -1,0 +1,44 @@
+$bg-color: white;
+$mask-color: rgba(0, 0, 0, 0.1);
+
+@mixin theme {
+    padding: 25px;
+    border-radius: 5px;
+}
+
+[class*="headerText"] {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.accordion-button {
+    background-color: $bg-color;
+    :not(.collapsed) {
+        background-color: $bg-color;
+        color: black;
+    }
+}
+
+#text {
+    background-color: $bg-color;
+    @include theme;
+}
+
+.row > .col-8 {
+    background-color: $mask-color;
+    @include theme;
+}
+
+.row > .col-sm-3 {
+    background-color: $mask-color;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.row {
+    justify-content: center;
+}
+
+#carouselExampleDark {
+    width: 800px;
+}

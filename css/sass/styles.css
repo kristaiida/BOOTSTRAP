@@ -1,0 +1,40 @@
+[class*=headerText] {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.accordion-button {
+  background-color: white;
+}
+.accordion-button :not(.collapsed) {
+  background-color: white;
+  color: black;
+}
+
+#text {
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.row > .col-8 {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.row > .col-sm-3 {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.row {
+  justify-content: center;
+}
+
+#carouselExampleDark {
+  width: 800px;
+}
+
+/*# sourceMappingURL=styles.css.map */
